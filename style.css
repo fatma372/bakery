@@ -144,7 +144,7 @@ main {
 }
 
 .who {
-    height: 100svh;
+    min-height: 100svh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,7 +162,7 @@ main {
 .info {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
     width: 50%;
     color: rgb(49, 48, 48);
     padding: 10px;
@@ -189,7 +189,7 @@ main {
 
 .our-location ,.contact-info {
     background-color: #f8f8f8;
-    height: 80svh;
+    min-height: 80svh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -350,5 +350,16 @@ footer a:hover i, .back-to-top:hover{
     }
 }
 
+@media (max-width: 425px) {
+    .who{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .our-location{
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    
+}
 
 
