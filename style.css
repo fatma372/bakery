@@ -1,0 +1,354 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+
+    text-decoration: none !important;
+    list-style-type: none;
+    position: relative;
+
+    font-size: normal !important;
+
+}
+
+body {
+    max-width: 100svw;
+    height: 100svh;
+    max-height: 100svh;
+    font-family: Alegreya !important;
+}
+
+header {
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    /* align-items: center !important; */
+    gap: 15px;
+    flex-wrap: wrap; 
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #8E7754;
+}
+
+nav ul li a:active {
+    border-top: 2px solid #8E7754;
+    padding: 10px;
+}
+.bar{
+    color:white;
+    display: none !important;
+    font-size: 24px;
+
+}
+
+main {
+    background-image: url(./images/drew-coffman-1872.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero {
+    height: 100svh;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 15px;
+}
+
+.hero p {
+    font-size: 20px !important;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.primary-btn {
+    color: white;
+    font-weight: bold;
+    padding: 12px 17px;
+    background-color: #8E7754;
+    border: 2px solid #8E7754;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.secondary-btn {
+    color: white;
+    font-weight: bold;
+    padding:  12px 17px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.btns button:hover {
+    background-color: white;
+    color: black;
+}
+
+.scroll {
+    background-color: transparent;
+    border: 1px solid white;
+    height: 45px;
+    width: 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 10%;
+}
+
+.scroll-link {
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    color: white;
+    padding: 2px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 5px;
+}
+
+.who {
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.who img {
+    width: 40%;
+    height: auto;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 50%;
+    color: rgb(49, 48, 48);
+    padding: 10px;
+
+}
+
+.service {
+    display: flex;
+    gap: 10px;
+}
+
+.service i {
+    border: 1px solid #8E7754;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: #8E7754;
+}
+
+.our-location ,.contact-info {
+    background-color: #f8f8f8;
+    height: 80svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.our-location img {
+    width: 40%;
+    height: auto;
+    padding: 20px;
+}
+.our-baking{
+    min-height: 100svh;
+}
+
+.bakes {
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-item i{
+    border: 1px solid #8E7754;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #8E7754;
+    color: white;
+}
+
+.end-site{
+    background-color:#403D38 ;
+    color:#969696;
+}
+
+.end-site div{
+    padding: 30px;
+}
+
+.end-site div h5{
+    color: #f8f8f8;
+    font-size: 16px;
+}
+
+.end-site div ul li{
+    text-align: left;
+    border-bottom: 1px solid #969696;
+    margin-bottom: 10px;
+    padding: 7px;
+    font-size: 16px;
+
+}
+
+.end-site div ul li:last-child{
+    border: none;
+}
+
+.contact-details{
+    background-image: url(./images/contact-details-map.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color: #353330;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #969696;
+    text-align: center;
+    max-width: 100svw;
+}
+
+footer a , .back-to-top{
+    color: #969696;
+    background-color: #9696963f;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #969696;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 50%;
+}
+
+footer a i, .back-to-top{
+    color: #969696;
+    font-size: 20px;
+}
+
+footer a:hover ,.back-to-top:hover{
+    background-color: #8E7754;
+    
+}
+
+footer a:hover i, .back-to-top:hover{
+    color: white;
+}
+
+.back-to-top{
+    position: fixed;
+    text-align: center;
+    bottom: 70px;
+    right: 10px;
+    z-index: 99;
+    border: none;
+}
+
+.visible{
+    display: block !important;
+}
+
+.change{
+    color: #8E7754;
+}
+
+
+@media (max-width: 768px){
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        padding: 10px;
+        background-color: #333333b9;
+       position: absolute;
+        top: 40px;
+        right: 10px;
+        width:200px;
+        z-index: 99;
+        border: 1px solid #969696;
+        border-radius:20px ;
+        -webkit-border-radius:20px ;
+        -moz-border-radius:20px ;
+        -ms-border-radius:20px ;
+        -o-border-radius:20px ;
+        box-shadow: 0px 0px 5px #eeebeb;
+}  
+    .nav-links li{
+        width: 100%;
+        text-align: center;
+    }
+    .nav-links li:hover {
+        cursor: pointer;
+       border-bottom: 1px solid #969696;
+    }
+    .bar{
+        display: block !important;
+        align-self: flex-end;
+    }
+}
+
+
+
